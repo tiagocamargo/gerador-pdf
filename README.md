@@ -34,6 +34,7 @@ As seguintes variáveis de ambiente podem ser configuradas no arquivo `.env`:
 | `PDF_MARGIN_RIGHT`          | A margem direita do PDF.                                                                              | `1cm`                                                                       |
 | `PDF_MARGIN_BOTTOM`         | A margem inferior do PDF.                                                                             | `1cm`                                                                       |
 | `PDF_MARGIN_LEFT`           | A margem esquerda do PDF.                                                                             | `1cm`                                                                       |
+| `PUPPETEER_WAIT_UNTIL`      | A opção de espera do Puppeteer ao carregar o HTML. Opções: `load`, `domcontentloaded`, `networkidle0`. | `load`                                                                      |
 
 ## Endpoint da API
 
